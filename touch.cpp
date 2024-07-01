@@ -4,7 +4,7 @@
 #include <string>
 #include <algorithm>
 
-const char invalid_chars[] = { '/', '\\', ':', '*', '+', ',', ';', '<', '>', '?', '=', '|', '"', '\'', '[', ']', '{', '}', '.' };
+const char invalid_chars[] = { '/', '\\', ':', '*', '+', ',', ';', '<', '>', '?', '=', '|', '"', '\'', '[', ']', '{', '}' };
 
 bool is_valid_filename(const std::string& filename) {
     for (char c : filename) {
